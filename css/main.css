@@ -37,7 +37,7 @@ nav a {
   font-weight: bold;
 }
 #sign-out {
-  
+  padding-left: 48vw;
 }
 
 /* Links */
@@ -47,7 +47,6 @@ a {
 }
 a:hover {
   color: white;
-  text-decoration: underline;
 }
 
 /* Buttons */
