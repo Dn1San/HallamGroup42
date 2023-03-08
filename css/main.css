@@ -4,20 +4,40 @@ body {
   color: black;
 }
 
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: black;
+}
+
 /* Header */
 header {
   margin: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 30px 20px;
   background-color: #ff0000;
   box-shadow: 0 2px 4px rgba(0,0,0,1);
 }
 
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-  color: black;
+/* Navigation */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  margin: 50px 10px;
+  display: inline;
+}
+nav a {
+  text-decoration: none;
+  color: #222;
+  font-size: 20px;
+  font-weight: bold;
+}
+#sign-out {
+  
 }
 
 /* Links */
